@@ -32,6 +32,7 @@ For the first time, designers can create and ship beautiful animations without a
   s.ios.exclude_files = 'lottie-swift/src/Public/MacOS/**/*'
   s.tvos.exclude_files = 'lottie-swift/src/Public/MacOS/**/*'
   s.osx.exclude_files = 'lottie-swift/src/Public/iOS/**/*'
+  s.xcconfig = { 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'YES' }
 
   s.ios.frameworks = ['UIKit', 'CoreGraphics', 'QuartzCore']
   s.tvos.frameworks = ['UIKit', 'CoreGraphics', 'QuartzCore']
